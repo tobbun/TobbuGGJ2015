@@ -6,6 +6,24 @@ public class Controls : MonoBehaviour {
 	public float jumpspeed = 400;
 	public bool isJumping = false;
 	
+	bool mainMusicPlaying = false;
+
+	void Awake () {
+		// Load the Fabric manager by loading up the Audio scene!
+		AudioManager.LoadFabric();
+	}
+	
+	
+	void Update () {
+		if (!mainMusicPlaying) {
+			if (AudioManager.FabricLoaded) {
+				mainMusicPlaying = true;
+				AudioManager.PlaySound("MX/Jazzcave_lp");
+				Debug.Log("play the music!");
+//				AudioManager.PlaySound("FX/Amb/Waves-Light");
+			}
+		}
+	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
