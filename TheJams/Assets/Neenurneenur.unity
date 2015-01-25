@@ -5633,9 +5633,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 2092850481}
   - 33: {fileID: 2092850480}
-  - 65: {fileID: 2092850479}
   - 23: {fileID: 2092850478}
   - 114: {fileID: 2092850477}
+  - 61: {fileID: 2092850479}
   m_Layer: 0
   m_Name: rockslide_collider
   m_TagString: Untagged
@@ -5674,18 +5674,17 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!65 &2092850479
-BoxCollider:
+--- !u!61 &2092850479
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2092850476}
+  m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: .22813718, y: 5.40624523}
+  m_Center: {x: .00695278449, y: -1.14795363}
 --- !u!33 &2092850480
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5701,7 +5700,7 @@ Transform:
   m_GameObject: {fileID: 2092850476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.07800007, y: -.0469999984, z: 0}
-  m_LocalScale: {x: 2.15571451, y: .0213866923, z: 1}
+  m_LocalScale: {x: 7.65665197, y: .0213866923, z: .645426095}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7

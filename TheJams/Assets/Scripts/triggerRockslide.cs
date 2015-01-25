@@ -7,7 +7,6 @@ public class triggerRockslide : MonoBehaviour {
 
 	// Use this for initialization
 	void OnTriggerEnter2D () {
-		Debug.Log("we made it");
 		if (!hasTriggeredRockslide) {
 			Debug.Log("play rockslide");
 			AudioManager.PlaySound("FX/One-Shots/Rockslide", gameObject);
