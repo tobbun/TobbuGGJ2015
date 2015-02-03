@@ -59,16 +59,16 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Fabric.AudioSpline">
- <HintPath>C:/Users/Tobbun/Documents/GitHub/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.AudioSpline.dll</HintPath>
+ <HintPath>E:/Gamestuff/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.AudioSpline.dll</HintPath>
  </Reference>
  <Reference Include="Fabric.Core">
- <HintPath>C:/Users/Tobbun/Documents/GitHub/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.Core.dll</HintPath>
+ <HintPath>E:/Gamestuff/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.Core.dll</HintPath>
  </Reference>
  <Reference Include="Fabric.LoudnessMeter">
- <HintPath>C:/Users/Tobbun/Documents/GitHub/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.LoudnessMeter.dll</HintPath>
+ <HintPath>E:/Gamestuff/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.LoudnessMeter.dll</HintPath>
  </Reference>
  <Reference Include="Fabric.ModularSynth">
- <HintPath>C:/Users/Tobbun/Documents/GitHub/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.ModularSynth.dll</HintPath>
+ <HintPath>E:/Gamestuff/TobbuGGJ2015/TheJams/Assets/Fabric/Fabric.ModularSynth.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
