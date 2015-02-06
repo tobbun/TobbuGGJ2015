@@ -4,7 +4,7 @@ using System.Collections;
 public class Controls : MonoBehaviour {
 	public float maxSpeed = 10f;
 	public float sideSpeed;
-	public float jumpspeed = 400;
+	public float jumpHeight = 400;
 	public bool isJumping = false;
 	bool facingRight = true;
 	bool isWalking = false;
@@ -34,7 +34,7 @@ public class Controls : MonoBehaviour {
 			}
 		}
 
-
+		Jump ();
 	}
 
 	// Update is called once per frame
@@ -51,8 +51,14 @@ public class Controls : MonoBehaviour {
 			Flip ();
 		}
 
+
 		/*Move (KeyCode.D, new Vector2 (1, 0), sideSpeed);
 		Move (KeyCode.A, new Vector2 (-1, 0), sideSpeed);*/
+	}
+	void Jump(){
+		if (Input.GetButtonDown ("Jump")) {
+			rigidbody2D.velocity = new Vector2 (rigidbody2D.velocity.x, jumpHeight);		
+		}
 	}
 
 	void Flip(){
